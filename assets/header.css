@@ -1,0 +1,26 @@
+:root {
+    --cor-Forte: #1b357e;
+    --cor-Texto: #1351d8;
+}
+
+header .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define 3 colunas de tamanho igual */
+    gap: 10px; /* Espaço entre os itens */
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    
+    /* Colocar uma borda ou sombra embaixo do header. */
+}
+
+.logo{
+    margin-left: 100px;
+} 
+.menu{
+    color: var(--cor-Texto);
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
+    justify-content: center;
+}

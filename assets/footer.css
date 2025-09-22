@@ -1,0 +1,25 @@
+:root {
+    --cor-Forte: #1b357e;
+    --cor-Texto: #1351d8;
+}
+
+footer {
+    background-color: var(--cor-Forte);
+    color: white;
+    padding: 5px;
+}
+
+footer .container {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerRedes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.containerRedes img{
+    height: 30px;
+}
