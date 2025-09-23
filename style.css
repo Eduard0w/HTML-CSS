@@ -7,17 +7,15 @@
 body{
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Altura mínima de 100% da viewport */
-    margin: 0; /* Remove margens padrão */
+    min-height: 100vh;
+    margin: 0;
 }
 
 main {
     display: grid;
     justify-content: center;
-    flex-grow: 1
 }
 main p {
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 8px;
 }
