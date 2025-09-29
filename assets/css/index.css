@@ -9,7 +9,7 @@ main p {
   font-size: large;
 }
 main .imagemPrincipal {
-  max-width: 1080px;
+  max-width: 100vw;
   max-height: 100%;
 }
 main .imagemPrincipal:hover {
