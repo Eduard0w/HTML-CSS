@@ -1,0 +1,38 @@
+:root {
+  --cor-Forte: #1b357e;
+  --cor-Texto: #1351d8;
+}
+
+header .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #1b357e69;
+}
+
+.logo {
+  margin-left: 10px;
+  max-width: 30%;
+}
+.logo img {
+  width: 100%;
+}
+.menu {
+  color: var(--cor-Texto);
+  display: flex;
+  gap: 30px;
+  font-size: 22px;
+  justify-content: center;
+  font-weight: bold;
+}
+.menu p a {
+  font-size: large;
+  text-decoration: none;
+}
+.menu p a:hover {
+  border-bottom: var(--cor-Texto) solid 2px;
+}

@@ -1,0 +1,22 @@
+:root {
+  --cor-Forte: #1b357e;
+  --cor-Texto: #1351d8;
+}
+
+main p {
+  margin: auto;
+  margin-top: 8px;
+  font-size: large;
+}
+main .imagemPrincipal {
+  max-width: 1080px;
+  max-height: 100%;
+}
+main .imagemPrincipal:hover {
+  box-shadow: 0 0 1px 0 var(--cor-Forte);
+}
+main .imagemPrincipal img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 0 5px 5px;
+}
