@@ -1,83 +1,3 @@
-/* :root {
-  --cor-Forte: #1b357e;
-  --cor-Texto: #1351d8;
-}
-
-main {
-  height: 100%;
-}
-main .video {
-  width: 99vw;
-  height: 500px;
-  margin-bottom: 20px;
-}
-main .video iframe {
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-}
-
-table {
-  margin: auto;
-  padding-top: 20px;
-}
-th {
-  padding-right: 20px;
-}
-td {
-  padding-right: 20px;
-}
-table .itens {
-  display: flex;
-}
-table .itens input {
-  min-width: 35px;
-  min-height: 35px;
-  margin-right: 5px;
-  cursor: pointer;
-}
-table .itens .text {
-  font-size: 15px;
-}
-table .itens img {
-  margin-left: 10px;
-  height: 25px;
-}
-table .itens .text span {
-  color: var(--cor-Texto);
-  font-weight: bold;
-}
-.button_compare {
-  margin: 35px 0 30px 0;
-  display: flex;
-  justify-content: center;
-}
-.button_compare button {
-  border: 0;
-  border-radius: 5px;
-  color: white;
-  background-color: var(--cor-Texto);
-  padding: 15px 40px;
-  cursor: pointer;
-  font-size: 15px;
-}
-
-@media (max-width: 768px) {
-  table,
-  thead,
-  tbody,
-  tr,
-  th,
-  td {
-    display: block;
-    width: 100%;
-  }
-  table .itens {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-} */
-
 :root {
   --cor-Forte: #1b357e;
   --cor-Texto: #1351d8;
@@ -158,6 +78,17 @@ main .video iframe {
 }
 
 @media (max-width: 768px) {
+  main .video {
+    height: 30vh;
+    margin-bottom: 20px;
+  }
+ 
+  main .video iframe {
+    width: 100%;
+    height: 30vh;
+    border-radius: 5px;
+  }
+
   .carros,
   .carros thead,
   .carros tbody,

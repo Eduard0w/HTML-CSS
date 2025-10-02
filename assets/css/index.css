@@ -20,3 +20,20 @@ main .imagemPrincipal img {
   height: 100%;
   border-radius: 0px 0 5px 5px;
 }
+
+@media (max-width: 768px) {
+  .imagemPrincipal {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+  }
+
+  .imagemPrincipal img {
+    width: 100vw;
+    height: auto;
+  }
+
+  main p {
+    text-align: center;
+  }
+}

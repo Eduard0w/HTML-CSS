@@ -40,5 +40,9 @@ footer .container {
   footer p a {
     display: flex;
     text-align: center;
+    margin: 10px 0;
+  }
+  .containerRedes p {
+    display: none;
   }
 }
