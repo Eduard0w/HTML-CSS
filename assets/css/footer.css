@@ -9,10 +9,11 @@ footer {
   padding: 5px;
   margin-top: auto;
 }
-a {
-  color: var(--cor-Texto);
+footer a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: white;
 }
-
 footer .container {
   padding: 15px;
   display: flex;
@@ -30,4 +31,14 @@ footer .container {
 .containerRedes img:hover {
   height: 35px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  footer .container {
+    flex-direction: column;
+  }
+  footer p a {
+    display: flex;
+    text-align: center;
+  }
 }

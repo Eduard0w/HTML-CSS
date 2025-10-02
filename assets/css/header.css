@@ -36,3 +36,12 @@ header .container {
 .menu p a:hover {
   border-bottom: var(--cor-Texto) solid 2px;
 }
+
+@media (max-width: 768px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+}
